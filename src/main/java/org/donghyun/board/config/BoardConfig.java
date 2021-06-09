@@ -5,8 +5,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan(basePackages = "org.dongho.board.mapper")
-@ComponentScan(basePackages = "org.dongho.board.service")
+@MapperScan(basePackages = "org.donghyun.board.mapper")
+@ComponentScan(basePackages = "org.donghyun.board.service")
 public class BoardConfig {
 
 }
